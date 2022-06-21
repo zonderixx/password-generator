@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="containers">
+            <div class="generate">
+                <h1 class="title">
+                    Generate a 
+                    <span class="sep-color">random password</span>
+                </h1>
+                <h2 class="snippet">Never use an insecure password again.</h2>
+                <input type="text" class="input-num">
+                <button id="generate-btn" onclick="generatePasswords()">&#9889; 💀 Generate passwords</button>
+            </div>
+            <section class="output">
+                <div class="output-btn">
+                    <input type="text" id="firstInput" class="input">
+                    <button id="copy-btn" onclick="copyToClipBoard('firstInput')">Copy text</button>
+                </div>
+                <div class="output-btn">
+                    <input type="text" id="secondInput" class="input">
+                    <button id="copy-btn" onclick="copyToClipBoard('secondInput')">Copy text</button>
+                </div>
+                <div class="output-btn">
+                    <input type="text" id="thirdInput" class="input">
+                    <button id="copy-btn" onclick="copyToClipBoard('thirdInput')">Copy text</button>
+                </div>
+                <div class="output-btn">
+                    <input type="text" id="fourthInput" class="input">
+                    <button id="copy-btn" onclick="copyToClipBoard('fourthInput')">Copy text</button>
+                </div>
+            </section>
+        </div>
+        
+        <script src="index.js"></script>
+    </body>
+</html>
